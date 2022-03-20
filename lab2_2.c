@@ -26,7 +26,7 @@ printf("value of ptr == %p\n", ptr); // ptr의 값을 출력하는데, 형태는
 printf("address of ptr == %p\n", &ptr); // ptr의 주소를 출력한다.
 printf("value of *ptr == %d\n", *ptr); // ptr의 값을 출력한다.
 printf("value of dptr == %p\n", dptr); // dptr의 값을 출력한다.
-printf("address of ptr == %p\n", &ptr); //ptr의 주소를 출력한다.
+printf("address of ptr == %p\n", &dptr); // dptr의 주소를 출력한다.
 printf("value of *dptr == %p\n", *dptr); // dptr의 값을 출력하는데, ptr의 값.
 printf("value of **dptr == %d\n", **dptr); // dptr의 값을 출력하는데, i의 값.
 *ptr = 7777; /* changing the value of *ptr */
