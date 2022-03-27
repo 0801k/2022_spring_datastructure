@@ -24,10 +24,10 @@ st3 = st2; // st2를 st3에 대입한다.
 printf("\nst3.lastName = %c\n", st3.lastName); // st3.lastName의 값을 출력한다.
 printf("st3.studentId = %d\n", st3.studentId); // st3.studentId의 값을 출력한다.
 printf("st3.grade = %c\n", st3.grade); // st3.grade의 값을 출력한다.
-/* equality test */
+/* equality test */ 
 //if(st3 == st2) /* not working */
 //printf("equal\n"); 
 //else
-//printf("not equal\n"); 
+//printf("not equal\n");      // 전체구조의 동등성 검사가 되지 않음(비교가 되지 않음)
 return 0;
 }
